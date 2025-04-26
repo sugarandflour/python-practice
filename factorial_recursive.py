@@ -9,4 +9,4 @@ def factorial_recursive(y):
   else:
     
 # and the recursive case to multiply y by y-1 until it is equal to 1
-    return n * factorial_recursive(n-1)
+    return y * factorial_recursive(y-1)
